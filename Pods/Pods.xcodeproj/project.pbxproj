@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A8A74DDF487BFCD986106D3AD448DD0 /* VersionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E0DCAA685AD1F4D5AEB430DA3855011 /* VersionController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0F1A7FD7FB508DA94E4ACFD808BE13A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB4411AEC67E7D9E511681FB30BFE1A /* Foundation.framework */; };
+		10C3339426458641036CC32E745B9160 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A288453E692A3027CE7FB2D4D4EA617 /* Storage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		12B0FD49EAF039DA8668BB49B448AD7B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE74F118AB6107A54B5DD7B4168CB0B3 /* CoreData.framework */; };
+		135EB128936A1909CF73AEFF05727C3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB4411AEC67E7D9E511681FB30BFE1A /* Foundation.framework */; };
+		19AEAC0FE8ACB81BE15908D4238135C7 /* NSSortDescriptorConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC7DCBEEFD6EFCFA4E750199C798793 /* NSSortDescriptorConvertible.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		21824802F67E67649C0539186C194952 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE38E68BC08877CAA07C905A95A919D5 /* Context.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2ACE16B55B43114C16E3A57D6E47ECBB /* SugarRecord-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC1DF185EE3009C4686335AC2B28773 /* SugarRecord-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BC5AA9A65F8485F59C5D894DDB2377A /* Pods-democoredata-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2AFFA04CA96C514A6F70031C0CAD886 /* Pods-democoredata-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C4BE164D65D62732CE518E7DB2A4DB8 /* DatePickerDialog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 963D55C62F138C009A72851DF8C1035B /* DatePickerDialog-dummy.m */; };
+		2FDDD12A558EB3FCB905F09818FE5D29 /* StorageError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6348E4D7E084D3EC43A84B2FB5BE8A66 /* StorageError.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3207AE504366B05DD61C8AEA730BB66B /* NSManagedObjectContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1C48DD40BD7BADFC4F7363829976AD /* NSManagedObjectContext.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		36A3EEE18D93231E46E68953884D74F1 /* DatePickerDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = B849C2AD31B7486B0BBD8146F842E1D1 /* DatePickerDialog.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		38F63306C738BED51AA778679FA137B2 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E463C9EECF53161DC1E8F917BB267C /* ResultProtocol.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		57D8DC0A4A256C13E158DB246D45AE54 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974DED6FD88AB866BBC813C0A0010B9B /* Request.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5940CABE7EE9C98E74B4F799D649B433 /* NSManagedObjectMemoryContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA72A3AC7A9225ECD36F201416DB1FE7 /* NSManagedObjectMemoryContext.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5DEA42C5E87630F7B33CB964F0D3B725 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 388AC740E0D6B95ED251ED41FF6AC0C3 /* Result.framework */; };
+		6ABAC353E960809C0BFEE7457CCBF1A0 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4442E71C9A4073EC2BBB2F6BBC912C18 /* Logger.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6D84BBA2412E9E075BB81E770505A774 /* CoreDataOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C83EA4A30FDE4398050F57FF8BD5FD /* CoreDataOptions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		717347976932466E5D15FD6B69C12911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB4411AEC67E7D9E511681FB30BFE1A /* Foundation.framework */; };
+		726C05376693551519923620FC8CA904 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 797DB5D5F91A1C21D5362CAACD68DD8F /* Entity.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		755745CFEBC1FCC38EC2597E1646BB46 /* CoreDataiCloudStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B03AA5673D2B80DEFEA257657B4CBBB /* CoreDataiCloudStorage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7BB056BB4AD65CB66380CBDD52CB0FD3 /* DatePickerDialog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25C543F57C87E5CA370FBF4C11B4FD7C /* DatePickerDialog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F8A8305D522BE8A761A3D12AC55932A /* CoreDataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB947EE8CAB0D13F9DA390B6381FA94E /* CoreDataError.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		80797AB271C62C9841A2E6B59CEBF3E6 /* SugarRecord-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C13439FB505DBD6500A18146F339C8 /* SugarRecord-dummy.m */; };
+		83F4F1A1F175B632935137492F631306 /* CoreDataObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 097F38A091ED10D509D0EE91ADCBA349 /* CoreDataObservable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8D2B96202B4AC1229FD233A456519B62 /* CoreDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C869999270265CDFB281B6EAFA0864A /* CoreDataStore.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		903B9B23FE175CF0975BE0C71123CAD6 /* CoreDataiCloudConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FEBBC1F60613BE7EE135ABE96A77E9 /* CoreDataiCloudConfig.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9134E0027207380E13B51796CE5303A2 /* VersionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24459B6663D679239BC70EFA3884BDBF /* VersionProvider.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		93C242232AA2C7B3DB534B5B10A2784D /* DirUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26BFAEF93E00864A21261B3503DFC98D /* DirUtils.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9C3B2911518F29A0094AC2E47444E44A /* CoreDataObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07EA915AEBD7172A84D6D093A15F3D58 /* CoreDataObjectModel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9CFAF0252B1201414DAB9BDC5787A489 /* RequestObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B76842D778BBA24123C841458559B6 /* RequestObservable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A08CA1AA1610FA5B96B7E50ADD387887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB4411AEC67E7D9E511681FB30BFE1A /* Foundation.framework */; };
+		A14AC571567337999AD7E8AF3A925CAD /* Result-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D1039327B398B44498DF081E62F30E /* Result-dummy.m */; };
+		B2C041831C3045ADADA8C54104940A6F /* RequestExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919A4A17E4505A4DB05A8B17E8E35FA6 /* RequestExtension.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B86A2538EFCE8067C88F3A33420944E7 /* NSManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10F5B76253CD9DED311ED921F3FB5793 /* NSManagedObject.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B9C4434BBF8DF4FE2EEB75123FA6BA5A /* CoreDataDefaultStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5EF490A45A18467DE109DC5356E6DD2 /* CoreDataDefaultStorage.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BB5421CB9CD663F59BF05F7B6D6E9F2A /* NSPredicateConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02BCDB02CC639A81206B0F2F9BFFB70 /* NSPredicateConvertible.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D1173EE2CD349B56DFBADABA639B6D82 /* Pods-democoredata-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A6371EC6D3C20709F17FCE0AF052943A /* Pods-democoredata-dummy.m */; };
+		D4FAEA8D4A4D67E452E946E3B9C9B58C /* CoreDataChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47B122DD48D172EA64B486F224AC2580 /* CoreDataChange.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DDB4586D531ECBFB3D4F5FE3181288EA /* Result-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DD75D76A73C80E4929C69A7BE34ECEF /* Result-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E6A81EAF4B5FC5817A1CC2F77D80B7EE /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558CE8618DF0CAD2C60E3796167C551 /* Requestable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FB2B3E3781154D0505CB4581B66863E1 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0D48A997BE8B363C463F23CFEC91F9D /* Result.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FD76F9D8CC22A101EB1D82FD3E155938 /* CoreDataContextParent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09BDAA7011F67D8E6A79C2FDD34F415 /* CoreDataContextParent.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F1C0BCC0E8436CA46491203DFCD97E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87DFB64F870ED17D5B2E7FD8F2BE624;
+			remoteInfo = Result;
+		};
+		2EBDBC70495DD9D589719B67345EEF61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8AEFFEACCAA191A278CF833D6E3C9E60;
+			remoteInfo = SugarRecord;
+		};
+		AD170BFBA3425083782576E33EE1E680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E87DFB64F870ED17D5B2E7FD8F2BE624;
+			remoteInfo = Result;
+		};
+		D39E807831E65033B0141935D6409148 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 184A1650DC0B648BD756068E60BF2C59;
+			remoteInfo = DatePickerDialog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0558CE8618DF0CAD2C60E3796167C551 /* Requestable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Requestable.swift; path = SugarRecord/Source/Foundation/Protocols/Requestable.swift; sourceTree = "<group>"; };
+		07EA915AEBD7172A84D6D093A15F3D58 /* CoreDataObjectModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataObjectModel.swift; path = SugarRecord/Source/CoreData/Entities/CoreDataObjectModel.swift; sourceTree = "<group>"; };
+		097F38A091ED10D509D0EE91ADCBA349 /* CoreDataObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataObservable.swift; path = SugarRecord/Source/CoreData/Entities/CoreDataObservable.swift; sourceTree = "<group>"; };
+		10F5B76253CD9DED311ED921F3FB5793 /* NSManagedObject.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSManagedObject.swift; path = SugarRecord/Source/CoreData/Extensions/NSManagedObject.swift; sourceTree = "<group>"; };
+		15221B11AB06C921B047CB5829FD91CE /* Result.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Result.modulemap; sourceTree = "<group>"; };
+		17B5563332A391432D9036E951AEE264 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17E8845229B1E2A0B50B8959A50CC9EA /* DatePickerDialog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DatePickerDialog.xcconfig; sourceTree = "<group>"; };
+		1C8AB566403345332C9375CCD842769D /* Pods-democoredata-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-democoredata-acknowledgements.plist"; sourceTree = "<group>"; };
+		24459B6663D679239BC70EFA3884BDBF /* VersionProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersionProvider.swift; path = SugarRecord/Source/Foundation/Version/VersionProvider.swift; sourceTree = "<group>"; };
+		25C543F57C87E5CA370FBF4C11B4FD7C /* DatePickerDialog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerDialog-umbrella.h"; sourceTree = "<group>"; };
+		26BFAEF93E00864A21261B3503DFC98D /* DirUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DirUtils.swift; path = SugarRecord/Source/Foundation/Utils/DirUtils.swift; sourceTree = "<group>"; };
+		2C869999270265CDFB281B6EAFA0864A /* CoreDataStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataStore.swift; path = SugarRecord/Source/CoreData/Entities/CoreDataStore.swift; sourceTree = "<group>"; };
+		388AC740E0D6B95ED251ED41FF6AC0C3 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		38CAB885366A3AEB3514E4C430097EA0 /* DatePickerDialog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DatePickerDialog.modulemap; sourceTree = "<group>"; };
+		3B57E6A8D5E1C31E2A2E93A2AAEF0602 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41C13439FB505DBD6500A18146F339C8 /* SugarRecord-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SugarRecord-dummy.m"; sourceTree = "<group>"; };
+		4442E71C9A4073EC2BBB2F6BBC912C18 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = SugarRecord/Source/Foundation/Logger/Logger.swift; sourceTree = "<group>"; };
+		46E463C9EECF53161DC1E8F917BB267C /* ResultProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResultProtocol.swift; path = Result/ResultProtocol.swift; sourceTree = "<group>"; };
+		47B122DD48D172EA64B486F224AC2580 /* CoreDataChange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataChange.swift; path = SugarRecord/Source/CoreData/Entities/CoreDataChange.swift; sourceTree = "<group>"; };
+		508602B830982DA33A0BB892199AE83B /* Pods_democoredata.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_democoredata.framework; path = "Pods-democoredata.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		51689911AD506D0E9A4B85FBEC3256ED /* Pods-democoredata-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-democoredata-frameworks.sh"; sourceTree = "<group>"; };
+		53978B5FF235052E3DF198420DA39E60 /* Pods-democoredata.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-democoredata.debug.xcconfig"; sourceTree = "<group>"; };
+		555B42EA64775EEA5E9FCFE379F86110 /* SugarRecord.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SugarRecord.xcconfig; sourceTree = "<group>"; };
+		59B76842D778BBA24123C841458559B6 /* RequestObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestObservable.swift; path = SugarRecord/Source/Foundation/Entities/RequestObservable.swift; sourceTree = "<group>"; };
+		5A1C48DD40BD7BADFC4F7363829976AD /* NSManagedObjectContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSManagedObjectContext.swift; path = SugarRecord/Source/CoreData/Extensions/NSManagedObjectContext.swift; sourceTree = "<group>"; };
+		5BAC0D3E57C4C460185B115964C8375B /* Pods-democoredata.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-democoredata.release.xcconfig"; sourceTree = "<group>"; };
+		5C6F91267B51FD449F788AE59ADC430D /* SugarRecord.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SugarRecord.modulemap; sourceTree = "<group>"; };
+		6348E4D7E084D3EC43A84B2FB5BE8A66 /* StorageError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StorageError.swift; path = SugarRecord/Source/Foundation/Errors/StorageError.swift; sourceTree = "<group>"; };
+		64FEBBC1F60613BE7EE135ABE96A77E9 /* CoreDataiCloudConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataiCloudConfig.swift; path = SugarRecord/Source/CoreData/Entities/CoreDataiCloudConfig.swift; sourceTree = "<group>"; };
+		6B03AA5673D2B80DEFEA257657B4CBBB /* CoreDataiCloudStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataiCloudStorage.swift; path = SugarRecord/Source/CoreData/Storages/CoreDataiCloudStorage.swift; sourceTree = "<group>"; };
+		6EC7DCBEEFD6EFCFA4E750199C798793 /* NSSortDescriptorConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSSortDescriptorConvertible.swift; path = SugarRecord/Source/Foundation/Protocols/NSSortDescriptorConvertible.swift; sourceTree = "<group>"; };
+		734D9D50347B3C74C2F58C2D94513AF1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		797DB5D5F91A1C21D5362CAACD68DD8F /* Entity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entity.swift; path = SugarRecord/Source/Foundation/Protocols/Entity.swift; sourceTree = "<group>"; };
+		7A288453E692A3027CE7FB2D4D4EA617 /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = SugarRecord/Source/Foundation/Entities/Storage.swift; sourceTree = "<group>"; };
+		7E0DCAA685AD1F4D5AEB430DA3855011 /* VersionController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VersionController.swift; path = SugarRecord/Source/Foundation/Version/VersionController.swift; sourceTree = "<group>"; };
+		7FF712A15AA181D81666CDB5DEF83236 /* Result-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-prefix.pch"; sourceTree = "<group>"; };
+		83F3B7B1D21FBA7F68136EBAA3E85354 /* SugarRecord.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SugarRecord.framework; path = SugarRecord.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		86DF5A0284CA299AF82F5CCB45C88FC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DD75D76A73C80E4929C69A7BE34ECEF /* Result-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Result-umbrella.h"; sourceTree = "<group>"; };
+		918AFFE1E1A9838889338485CCAD492B /* Result.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Result.xcconfig; sourceTree = "<group>"; };
+		919A4A17E4505A4DB05A8B17E8E35FA6 /* RequestExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestExtension.swift; path = SugarRecord/Source/Foundation/Extensions/RequestExtension.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		963D55C62F138C009A72851DF8C1035B /* DatePickerDialog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DatePickerDialog-dummy.m"; sourceTree = "<group>"; };
+		974DED6FD88AB866BBC813C0A0010B9B /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = SugarRecord/Source/Foundation/Entities/Request.swift; sourceTree = "<group>"; };
+		974FDFC3009800640259E6F55925DAD7 /* Result.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Result.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A02BCDB02CC639A81206B0F2F9BFFB70 /* NSPredicateConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSPredicateConvertible.swift; path = SugarRecord/Source/Foundation/Protocols/NSPredicateConvertible.swift; sourceTree = "<group>"; };
+		A2AFFA04CA96C514A6F70031C0CAD886 /* Pods-democoredata-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-democoredata-umbrella.h"; sourceTree = "<group>"; };
+		A6371EC6D3C20709F17FCE0AF052943A /* Pods-democoredata-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-democoredata-dummy.m"; sourceTree = "<group>"; };
+		B6E326676238D8FD83FC34BFC17C9594 /* Pods-democoredata.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-democoredata.modulemap"; sourceTree = "<group>"; };
+		B75945B5CC930A893BA6BC383AAAFE17 /* Pods-democoredata-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-democoredata-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B849C2AD31B7486B0BBD8146F842E1D1 /* DatePickerDialog.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DatePickerDialog.swift; path = Sources/DatePickerDialog.swift; sourceTree = "<group>"; };
+		B8D1039327B398B44498DF081E62F30E /* Result-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Result-dummy.m"; sourceTree = "<group>"; };
+		BA5E10FB04E4A8DB4A3B58EC203358D1 /* DatePickerDialog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DatePickerDialog.framework; path = DatePickerDialog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0D48A997BE8B363C463F23CFEC91F9D /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Result/Result.swift; sourceTree = "<group>"; };
+		C5C83EA4A30FDE4398050F57FF8BD5FD /* CoreDataOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataOptions.swift; path = SugarRecord/Source/CoreData/Entities/CoreDataOptions.swift; sourceTree = "<group>"; };
+		CE74F118AB6107A54B5DD7B4168CB0B3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		D32D0C8DBC6666547A423A0A69F1BD42 /* Pods-democoredata-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-democoredata-resources.sh"; sourceTree = "<group>"; };
+		DA72A3AC7A9225ECD36F201416DB1FE7 /* NSManagedObjectMemoryContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSManagedObjectMemoryContext.swift; path = SugarRecord/Source/CoreData/Extensions/NSManagedObjectMemoryContext.swift; sourceTree = "<group>"; };
+		E5751AC60C5FB75EE2745DE04A23F8CB /* DatePickerDialog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DatePickerDialog-prefix.pch"; sourceTree = "<group>"; };
+		E5EF490A45A18467DE109DC5356E6DD2 /* CoreDataDefaultStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataDefaultStorage.swift; path = SugarRecord/Source/CoreData/Storages/CoreDataDefaultStorage.swift; sourceTree = "<group>"; };
+		EB947EE8CAB0D13F9DA390B6381FA94E /* CoreDataError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataError.swift; path = SugarRecord/Source/CoreData/Errors/CoreDataError.swift; sourceTree = "<group>"; };
+		F09BDAA7011F67D8E6A79C2FDD34F415 /* CoreDataContextParent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreDataContextParent.swift; path = SugarRecord/Source/CoreData/Entities/CoreDataContextParent.swift; sourceTree = "<group>"; };
+		FAB4411AEC67E7D9E511681FB30BFE1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		FDCA712255280614374D1D8A82564D2D /* SugarRecord-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SugarRecord-prefix.pch"; sourceTree = "<group>"; };
+		FE38E68BC08877CAA07C905A95A919D5 /* Context.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Context.swift; path = SugarRecord/Source/Foundation/Protocols/Context.swift; sourceTree = "<group>"; };
+		FEC1DF185EE3009C4686335AC2B28773 /* SugarRecord-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SugarRecord-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EEF4A31BD664ADA370EBF552D4FC540 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A08CA1AA1610FA5B96B7E50ADD387887 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28925586CA69D4A7344CF23EDDE620B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12B0FD49EAF039DA8668BB49B448AD7B /* CoreData.framework in Frameworks */,
+				0F1A7FD7FB508DA94E4ACFD808BE13A7 /* Foundation.framework in Frameworks */,
+				5DEA42C5E87630F7B33CB964F0D3B725 /* Result.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		31AE3E263B8032AC2966F95252E5AADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				135EB128936A1909CF73AEFF05727C3A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DC23A46C350851211D40AB37D0A9EC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717347976932466E5D15FD6B69C12911 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0049C12440EE460C40EF2E38327D2786 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA5E10FB04E4A8DB4A3B58EC203358D1 /* DatePickerDialog.framework */,
+				508602B830982DA33A0BB892199AE83B /* Pods_democoredata.framework */,
+				974FDFC3009800640259E6F55925DAD7 /* Result.framework */,
+				83F3B7B1D21FBA7F68136EBAA3E85354 /* SugarRecord.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F798CEA942E3E7F8427620A7D94EA00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				388AC740E0D6B95ED251ED41FF6AC0C3 /* Result.framework */,
+				468B7FF278CD0CA200F2C583D8D0CA0E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		360D6A1E9B053C8A0FD15F84D14F5410 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A68FB06924094A3FEF0F3A9E0C7B07A /* DatePickerDialog */,
+				FCF47537510332186247135CB2F65F28 /* Result */,
+				B00B96D0450AAF111ADC357F98EA9E33 /* SugarRecord */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		468B7FF278CD0CA200F2C583D8D0CA0E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CE74F118AB6107A54B5DD7B4168CB0B3 /* CoreData.framework */,
+				FAB4411AEC67E7D9E511681FB30BFE1A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4A68FB06924094A3FEF0F3A9E0C7B07A /* DatePickerDialog */ = {
+			isa = PBXGroup;
+			children = (
+				B849C2AD31B7486B0BBD8146F842E1D1 /* DatePickerDialog.swift */,
+				F59AE5C1CE308219A645173F613B45E3 /* Support Files */,
+			);
+			name = DatePickerDialog;
+			path = DatePickerDialog;
+			sourceTree = "<group>";
+		};
+		5D7679BE1E3D26FFD32DD1B0F0280CA1 /* CoreData+iCloud */ = {
+			isa = PBXGroup;
+			children = (
+				6B03AA5673D2B80DEFEA257657B4CBBB /* CoreDataiCloudStorage.swift */,
+			);
+			name = "CoreData+iCloud";
+			sourceTree = "<group>";
+		};
+		75CF9E0BABA641C89DD984B5A9EA6B5F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E4210442DAF2CBCBEF5D21F9B043CD0 /* Pods-democoredata */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F798CEA942E3E7F8427620A7D94EA00 /* Frameworks */,
+				360D6A1E9B053C8A0FD15F84D14F5410 /* Pods */,
+				0049C12440EE460C40EF2E38327D2786 /* Products */,
+				75CF9E0BABA641C89DD984B5A9EA6B5F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E4210442DAF2CBCBEF5D21F9B043CD0 /* Pods-democoredata */ = {
+			isa = PBXGroup;
+			children = (
+				3B57E6A8D5E1C31E2A2E93A2AAEF0602 /* Info.plist */,
+				B6E326676238D8FD83FC34BFC17C9594 /* Pods-democoredata.modulemap */,
+				B75945B5CC930A893BA6BC383AAAFE17 /* Pods-democoredata-acknowledgements.markdown */,
+				1C8AB566403345332C9375CCD842769D /* Pods-democoredata-acknowledgements.plist */,
+				A6371EC6D3C20709F17FCE0AF052943A /* Pods-democoredata-dummy.m */,
+				51689911AD506D0E9A4B85FBEC3256ED /* Pods-democoredata-frameworks.sh */,
+				D32D0C8DBC6666547A423A0A69F1BD42 /* Pods-democoredata-resources.sh */,
+				A2AFFA04CA96C514A6F70031C0CAD886 /* Pods-democoredata-umbrella.h */,
+				53978B5FF235052E3DF198420DA39E60 /* Pods-democoredata.debug.xcconfig */,
+				5BAC0D3E57C4C460185B115964C8375B /* Pods-democoredata.release.xcconfig */,
+			);
+			name = "Pods-democoredata";
+			path = "Target Support Files/Pods-democoredata";
+			sourceTree = "<group>";
+		};
+		B00B96D0450AAF111ADC357F98EA9E33 /* SugarRecord */ = {
+			isa = PBXGroup;
+			children = (
+				B1AFEADBFF597B857E90F805DD91CC51 /* CoreData */,
+				5D7679BE1E3D26FFD32DD1B0F0280CA1 /* CoreData+iCloud */,
+				E9DAE92310BBD55F85CA930F16AEB614 /* Support Files */,
+			);
+			name = SugarRecord;
+			path = SugarRecord;
+			sourceTree = "<group>";
+		};
+		B1AFEADBFF597B857E90F805DD91CC51 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				FE38E68BC08877CAA07C905A95A919D5 /* Context.swift */,
+				47B122DD48D172EA64B486F224AC2580 /* CoreDataChange.swift */,
+				F09BDAA7011F67D8E6A79C2FDD34F415 /* CoreDataContextParent.swift */,
+				E5EF490A45A18467DE109DC5356E6DD2 /* CoreDataDefaultStorage.swift */,
+				EB947EE8CAB0D13F9DA390B6381FA94E /* CoreDataError.swift */,
+				64FEBBC1F60613BE7EE135ABE96A77E9 /* CoreDataiCloudConfig.swift */,
+				07EA915AEBD7172A84D6D093A15F3D58 /* CoreDataObjectModel.swift */,
+				097F38A091ED10D509D0EE91ADCBA349 /* CoreDataObservable.swift */,
+				C5C83EA4A30FDE4398050F57FF8BD5FD /* CoreDataOptions.swift */,
+				2C869999270265CDFB281B6EAFA0864A /* CoreDataStore.swift */,
+				26BFAEF93E00864A21261B3503DFC98D /* DirUtils.swift */,
+				797DB5D5F91A1C21D5362CAACD68DD8F /* Entity.swift */,
+				4442E71C9A4073EC2BBB2F6BBC912C18 /* Logger.swift */,
+				10F5B76253CD9DED311ED921F3FB5793 /* NSManagedObject.swift */,
+				5A1C48DD40BD7BADFC4F7363829976AD /* NSManagedObjectContext.swift */,
+				DA72A3AC7A9225ECD36F201416DB1FE7 /* NSManagedObjectMemoryContext.swift */,
+				A02BCDB02CC639A81206B0F2F9BFFB70 /* NSPredicateConvertible.swift */,
+				6EC7DCBEEFD6EFCFA4E750199C798793 /* NSSortDescriptorConvertible.swift */,
+				974DED6FD88AB866BBC813C0A0010B9B /* Request.swift */,
+				0558CE8618DF0CAD2C60E3796167C551 /* Requestable.swift */,
+				919A4A17E4505A4DB05A8B17E8E35FA6 /* RequestExtension.swift */,
+				59B76842D778BBA24123C841458559B6 /* RequestObservable.swift */,
+				7A288453E692A3027CE7FB2D4D4EA617 /* Storage.swift */,
+				6348E4D7E084D3EC43A84B2FB5BE8A66 /* StorageError.swift */,
+				7E0DCAA685AD1F4D5AEB430DA3855011 /* VersionController.swift */,
+				24459B6663D679239BC70EFA3884BDBF /* VersionProvider.swift */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		DB152C7E432DA16D7595DF5C60D61991 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				734D9D50347B3C74C2F58C2D94513AF1 /* Info.plist */,
+				15221B11AB06C921B047CB5829FD91CE /* Result.modulemap */,
+				918AFFE1E1A9838889338485CCAD492B /* Result.xcconfig */,
+				B8D1039327B398B44498DF081E62F30E /* Result-dummy.m */,
+				7FF712A15AA181D81666CDB5DEF83236 /* Result-prefix.pch */,
+				8DD75D76A73C80E4929C69A7BE34ECEF /* Result-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Result";
+			sourceTree = "<group>";
+		};
+		E9DAE92310BBD55F85CA930F16AEB614 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				86DF5A0284CA299AF82F5CCB45C88FC2 /* Info.plist */,
+				5C6F91267B51FD449F788AE59ADC430D /* SugarRecord.modulemap */,
+				555B42EA64775EEA5E9FCFE379F86110 /* SugarRecord.xcconfig */,
+				41C13439FB505DBD6500A18146F339C8 /* SugarRecord-dummy.m */,
+				FDCA712255280614374D1D8A82564D2D /* SugarRecord-prefix.pch */,
+				FEC1DF185EE3009C4686335AC2B28773 /* SugarRecord-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SugarRecord";
+			sourceTree = "<group>";
+		};
+		F59AE5C1CE308219A645173F613B45E3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38CAB885366A3AEB3514E4C430097EA0 /* DatePickerDialog.modulemap */,
+				17E8845229B1E2A0B50B8959A50CC9EA /* DatePickerDialog.xcconfig */,
+				963D55C62F138C009A72851DF8C1035B /* DatePickerDialog-dummy.m */,
+				E5751AC60C5FB75EE2745DE04A23F8CB /* DatePickerDialog-prefix.pch */,
+				25C543F57C87E5CA370FBF4C11B4FD7C /* DatePickerDialog-umbrella.h */,
+				17B5563332A391432D9036E951AEE264 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DatePickerDialog";
+			sourceTree = "<group>";
+		};
+		FCF47537510332186247135CB2F65F28 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				C0D48A997BE8B363C463F23CFEC91F9D /* Result.swift */,
+				46E463C9EECF53161DC1E8F917BB267C /* ResultProtocol.swift */,
+				DB152C7E432DA16D7595DF5C60D61991 /* Support Files */,
+			);
+			name = Result;
+			path = Result;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2675140161515F2E9F99FEB0F11F1ED3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BB056BB4AD65CB66380CBDD52CB0FD3 /* DatePickerDialog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26AA8418930BDF83C2DA788CBAF854E3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ACE16B55B43114C16E3A57D6E47ECBB /* SugarRecord-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		78B5BDFB241C526B8E044FBDC9DBBABD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB4586D531ECBFB3D4F5FE3181288EA /* Result-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B66403ACFDB17051E0DD3102B0ECBCFF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BC5AA9A65F8485F59C5D894DDB2377A /* Pods-democoredata-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		184A1650DC0B648BD756068E60BF2C59 /* DatePickerDialog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD5CF02785F10F0CDA34F90832C66CFA /* Build configuration list for PBXNativeTarget "DatePickerDialog" */;
+			buildPhases = (
+				0A51BFDDD0EF20D226BE30F11F871F0B /* Sources */,
+				31AE3E263B8032AC2966F95252E5AADC /* Frameworks */,
+				2675140161515F2E9F99FEB0F11F1ED3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatePickerDialog;
+			productName = DatePickerDialog;
+			productReference = BA5E10FB04E4A8DB4A3B58EC203358D1 /* DatePickerDialog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AEFFEACCAA191A278CF833D6E3C9E60 /* SugarRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF75D3DD59491162A27AE2944AC50AA /* Build configuration list for PBXNativeTarget "SugarRecord" */;
+			buildPhases = (
+				1B23ED6EA3956FE1FFF5CEE766F04CED /* Sources */,
+				28925586CA69D4A7344CF23EDDE620B9 /* Frameworks */,
+				26AA8418930BDF83C2DA788CBAF854E3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01E6B02B6254321E64E694547E10CF2B /* PBXTargetDependency */,
+			);
+			name = SugarRecord;
+			productName = SugarRecord;
+			productReference = 83F3B7B1D21FBA7F68136EBAA3E85354 /* SugarRecord.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD62F8A3FAFD5160BA546542007B8798 /* Pods-democoredata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301E7E8A4135C93DDF72B923779B8BA7 /* Build configuration list for PBXNativeTarget "Pods-democoredata" */;
+			buildPhases = (
+				942AD27B00F1E554B370152C40AB8509 /* Sources */,
+				1EEF4A31BD664ADA370EBF552D4FC540 /* Frameworks */,
+				B66403ACFDB17051E0DD3102B0ECBCFF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B11FED7FF6E064C5B3AEBB7C95AF5D3 /* PBXTargetDependency */,
+				31FCF30314ACFAD2B73394970897CF72 /* PBXTargetDependency */,
+				DF85F7B24223B8FBB6C37B19B02CAA4F /* PBXTargetDependency */,
+			);
+			name = "Pods-democoredata";
+			productName = "Pods-democoredata";
+			productReference = 508602B830982DA33A0BB892199AE83B /* Pods_democoredata.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E87DFB64F870ED17D5B2E7FD8F2BE624 /* Result */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E9B48E8D6308C896C334603BED31CDE /* Build configuration list for PBXNativeTarget "Result" */;
+			buildPhases = (
+				DC2C0D627EA437F773B24092F6837152 /* Sources */,
+				6DC23A46C350851211D40AB37D0A9EC7 /* Frameworks */,
+				78B5BDFB241C526B8E044FBDC9DBBABD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Result;
+			productName = Result;
+			productReference = 974FDFC3009800640259E6F55925DAD7 /* Result.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0049C12440EE460C40EF2E38327D2786 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184A1650DC0B648BD756068E60BF2C59 /* DatePickerDialog */,
+				AD62F8A3FAFD5160BA546542007B8798 /* Pods-democoredata */,
+				E87DFB64F870ED17D5B2E7FD8F2BE624 /* Result */,
+				8AEFFEACCAA191A278CF833D6E3C9E60 /* SugarRecord */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A51BFDDD0EF20D226BE30F11F871F0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C4BE164D65D62732CE518E7DB2A4DB8 /* DatePickerDialog-dummy.m in Sources */,
+				36A3EEE18D93231E46E68953884D74F1 /* DatePickerDialog.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B23ED6EA3956FE1FFF5CEE766F04CED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21824802F67E67649C0539186C194952 /* Context.swift in Sources */,
+				D4FAEA8D4A4D67E452E946E3B9C9B58C /* CoreDataChange.swift in Sources */,
+				FD76F9D8CC22A101EB1D82FD3E155938 /* CoreDataContextParent.swift in Sources */,
+				B9C4434BBF8DF4FE2EEB75123FA6BA5A /* CoreDataDefaultStorage.swift in Sources */,
+				7F8A8305D522BE8A761A3D12AC55932A /* CoreDataError.swift in Sources */,
+				903B9B23FE175CF0975BE0C71123CAD6 /* CoreDataiCloudConfig.swift in Sources */,
+				755745CFEBC1FCC38EC2597E1646BB46 /* CoreDataiCloudStorage.swift in Sources */,
+				9C3B2911518F29A0094AC2E47444E44A /* CoreDataObjectModel.swift in Sources */,
+				83F4F1A1F175B632935137492F631306 /* CoreDataObservable.swift in Sources */,
+				6D84BBA2412E9E075BB81E770505A774 /* CoreDataOptions.swift in Sources */,
+				8D2B96202B4AC1229FD233A456519B62 /* CoreDataStore.swift in Sources */,
+				93C242232AA2C7B3DB534B5B10A2784D /* DirUtils.swift in Sources */,
+				726C05376693551519923620FC8CA904 /* Entity.swift in Sources */,
+				6ABAC353E960809C0BFEE7457CCBF1A0 /* Logger.swift in Sources */,
+				B86A2538EFCE8067C88F3A33420944E7 /* NSManagedObject.swift in Sources */,
+				3207AE504366B05DD61C8AEA730BB66B /* NSManagedObjectContext.swift in Sources */,
+				5940CABE7EE9C98E74B4F799D649B433 /* NSManagedObjectMemoryContext.swift in Sources */,
+				BB5421CB9CD663F59BF05F7B6D6E9F2A /* NSPredicateConvertible.swift in Sources */,
+				19AEAC0FE8ACB81BE15908D4238135C7 /* NSSortDescriptorConvertible.swift in Sources */,
+				57D8DC0A4A256C13E158DB246D45AE54 /* Request.swift in Sources */,
+				E6A81EAF4B5FC5817A1CC2F77D80B7EE /* Requestable.swift in Sources */,
+				B2C041831C3045ADADA8C54104940A6F /* RequestExtension.swift in Sources */,
+				9CFAF0252B1201414DAB9BDC5787A489 /* RequestObservable.swift in Sources */,
+				10C3339426458641036CC32E745B9160 /* Storage.swift in Sources */,
+				2FDDD12A558EB3FCB905F09818FE5D29 /* StorageError.swift in Sources */,
+				80797AB271C62C9841A2E6B59CEBF3E6 /* SugarRecord-dummy.m in Sources */,
+				0A8A74DDF487BFCD986106D3AD448DD0 /* VersionController.swift in Sources */,
+				9134E0027207380E13B51796CE5303A2 /* VersionProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942AD27B00F1E554B370152C40AB8509 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1173EE2CD349B56DFBADABA639B6D82 /* Pods-democoredata-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC2C0D627EA437F773B24092F6837152 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A14AC571567337999AD7E8AF3A925CAD /* Result-dummy.m in Sources */,
+				FB2B3E3781154D0505CB4581B66863E1 /* Result.swift in Sources */,
+				38F63306C738BED51AA778679FA137B2 /* ResultProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01E6B02B6254321E64E694547E10CF2B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = E87DFB64F870ED17D5B2E7FD8F2BE624 /* Result */;
+			targetProxy = 0F1C0BCC0E8436CA46491203DFCD97E7 /* PBXContainerItemProxy */;
+		};
+		2B11FED7FF6E064C5B3AEBB7C95AF5D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DatePickerDialog;
+			target = 184A1650DC0B648BD756068E60BF2C59 /* DatePickerDialog */;
+			targetProxy = D39E807831E65033B0141935D6409148 /* PBXContainerItemProxy */;
+		};
+		31FCF30314ACFAD2B73394970897CF72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Result;
+			target = E87DFB64F870ED17D5B2E7FD8F2BE624 /* Result */;
+			targetProxy = AD170BFBA3425083782576E33EE1E680 /* PBXContainerItemProxy */;
+		};
+		DF85F7B24223B8FBB6C37B19B02CAA4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SugarRecord;
+			target = 8AEFFEACCAA191A278CF833D6E3C9E60 /* SugarRecord */;
+			targetProxy = 2EBDBC70495DD9D589719B67345EEF61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		541E90ABC7A0E7A39AF7EB9BC5439D7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555B42EA64775EEA5E9FCFE379F86110 /* SugarRecord.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SugarRecord/SugarRecord-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SugarRecord/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SugarRecord/SugarRecord.modulemap";
+				PRODUCT_NAME = SugarRecord;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AFEC8E1A8784B464E1BFC8E304D36D37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53978B5FF235052E3DF198420DA39E60 /* Pods-democoredata.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-democoredata/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-democoredata/Pods-democoredata.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_democoredata;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0F556D946E1C0C17D66E041657252F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E8845229B1E2A0B50B8959A50CC9EA /* DatePickerDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DatePickerDialog/DatePickerDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DatePickerDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DatePickerDialog/DatePickerDialog.modulemap";
+				PRODUCT_NAME = DatePickerDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C3EA7A7F7438A0F0E517BA077AAD7D15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918AFFE1E1A9838889338485CCAD492B /* Result.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				PRODUCT_NAME = Result;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C4E10B9685BDF519C137C93E760918E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 918AFFE1E1A9838889338485CCAD492B /* Result.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Result/Result-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Result/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Result/Result.modulemap";
+				PRODUCT_NAME = Result;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C890239BAD0CAA0C22DAF63E2E2AD210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BAC0D3E57C4C460185B115964C8375B /* Pods-democoredata.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-democoredata/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-democoredata/Pods-democoredata.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_democoredata;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5AC5C462771C69B67E46E768DC9BFD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555B42EA64775EEA5E9FCFE379F86110 /* SugarRecord.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SugarRecord/SugarRecord-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SugarRecord/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SugarRecord/SugarRecord.modulemap";
+				PRODUCT_NAME = SugarRecord;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E98E92354E51D0E27544837AB2D0A260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17E8845229B1E2A0B50B8959A50CC9EA /* DatePickerDialog.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DatePickerDialog/DatePickerDialog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DatePickerDialog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DatePickerDialog/DatePickerDialog.modulemap";
+				PRODUCT_NAME = DatePickerDialog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301E7E8A4135C93DDF72B923779B8BA7 /* Build configuration list for PBXNativeTarget "Pods-democoredata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFEC8E1A8784B464E1BFC8E304D36D37 /* Debug */,
+				C890239BAD0CAA0C22DAF63E2E2AD210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E9B48E8D6308C896C334603BED31CDE /* Build configuration list for PBXNativeTarget "Result" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4E10B9685BDF519C137C93E760918E4 /* Debug */,
+				C3EA7A7F7438A0F0E517BA077AAD7D15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF75D3DD59491162A27AE2944AC50AA /* Build configuration list for PBXNativeTarget "SugarRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				541E90ABC7A0E7A39AF7EB9BC5439D7B /* Debug */,
+				E5AC5C462771C69B67E46E768DC9BFD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD5CF02785F10F0CDA34F90832C66CFA /* Build configuration list for PBXNativeTarget "DatePickerDialog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E98E92354E51D0E27544837AB2D0A260 /* Debug */,
+				B0F556D946E1C0C17D66E041657252F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
